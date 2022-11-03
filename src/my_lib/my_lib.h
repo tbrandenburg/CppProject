@@ -19,6 +19,4 @@ unsigned int factorial(unsigned int number);
  * 
  * @return 0
  */
-unsigned char my_fnc(void) {
-    return 0;
-}
+unsigned char my_fnc(void);
