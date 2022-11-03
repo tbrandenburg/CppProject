@@ -3,7 +3,6 @@
 ################################
 # directories
 build/
-.vscode/
 html/
 latex/
 
@@ -79,7 +78,6 @@ vcpkg_installed/
 ########### VS CODE ############
 ################################
 .vscode/*
-!.vscode/settings.json
 !.vscode/tasks.json
 !.vscode/launch.json
 !.vscode/extensions.json

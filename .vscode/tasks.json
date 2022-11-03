@@ -1,0 +1,26 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Executable Call",
+            "detail": "Call main with test.json argument",
+            "type": "shell",
+            "command": [
+                "${workspaceFolder}/build/bin/main"
+            ],
+            "args": [
+                "--verbose",
+                "true",
+                "--filename",
+                "${workspaceFolder}/app/test.json"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}
