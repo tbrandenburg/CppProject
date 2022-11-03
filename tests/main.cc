@@ -15,3 +15,8 @@ TEST_CASE( "Factorials are computed", "[factorial]" ) {
 TEST_CASE( "Test printer function", "[print_hello_world]" ) {
     REQUIRE( print_hello_world() == 1 );
 }
+
+
+TEST_CASE( "Test my_fnc function", "[my_fnc]" ) {
+    REQUIRE( my_fnc() == 0 );
+}
