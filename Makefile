@@ -29,7 +29,13 @@ install_vcpkg_linux:
 
 install_vcpkg_mac:
 	vcpkg install --triplet x64-macos
+    
+build: FORCE
+	cd build && cmake -S.. -B.
+	cd build && cmake --build .
 
 build_vcpkg:
 	cd build && cmake -S.. -B. -DUSE_CONAN=OFF -DCMAKE_TOOLCHAIN_FILE:STRING="/home/jan/cpp/vcpkg/scripts/buildsystems/vcpkg.cmake"
 	cd build && cmake --build .
+
+FORCE: ;
