@@ -3,6 +3,12 @@
 #include <cstdint>
 #include <string_view>
 
+#cmakedefine FOO_ENABLE
+#cmakedefine FOO_STRING "@FOO_STRING@"
+
+#cmakedefine BAR_ENABLE
+#cmakedefine BAR_STRING "@BAR_STRING@"
+
 static constexpr std::string_view project_name = "@PROJECT_NAME@";
 static constexpr std::string_view project_version = "@PROJECT_VERSION@";
 static constexpr std::int32_t project_version_major{ @PROJECT_VERSION_MAJOR@ };
