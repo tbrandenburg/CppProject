@@ -1,6 +1,8 @@
 # Template For C++ Projects
 
 ![Build CI Test](https://github.com/tbrandenburg/CppProject/workflows/Ubuntu%20CI%20Test/badge.svg)
+![Build CI Test](https://github.com/tbrandenburg/CppProject/workflows/Windows%20CI%20Test/badge.svg)
+![Build CI Test](https://github.com/tbrandenburg/CppProject/workflows/MacOS%20CI%20Test/badge.svg)
 [![codecov](https://codecov.io/gh/tbrandenburg/CppProject/branch/master/graph/badge.svg)](https://codecov.io/gh/tbrandenburg/CppProject)
 
 This is a template for C++ projects. What you get:
